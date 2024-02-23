@@ -233,6 +233,567 @@
 </details>
 
 <details>
+  <summary>14 TDZ</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>14 TDZ</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  
+  ```
+</details>
+
+<details>
+  <summary>15 static 메서드</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>16 전개연산자를 사용하면 어떤 복사가 발생하나</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>17 함수 선언문 내부의 this값</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>18 가비지 컬렉터</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>19 await 작동원리</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>20 ECMAScript와 자바스크립트 차이점</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>21 JSON.stringify</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>22 JSON.parse</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>23 for of</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>24 for in</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>25 얕은복사 깊은복사</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>26 statement 문</summary>
+ 
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>27 고차 함수</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>28 return 문이 없는 async 함수 호출 결과</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+
+<details>
+  <summary>29 전개연산자</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>30 유사 객체 배열</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>31 var 변수의 스코프</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>32 이벤트 루프 작동원리</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>33 generator</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>34 자바스크립트 데이터 타입</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>35 unshift</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>36 shift</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>37 pop</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>38 push</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>39 filter</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>40 some</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>41 every</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>42 find</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>43 Promise 결과 2가지</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>44 Promise.all</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>45 Promise.race</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>46 iterable</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>47 iterator</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>48 setTimeout</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>49 setInterval</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>50 </summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+<details>
   <summary></summary>
 
   ### 코드
