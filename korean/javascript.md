@@ -1,5 +1,107 @@
+# 프로그래밍 언어
+
+# 스코프
+
 <details>
-  <summary>1 함수 선언 위에서 함수 호출</summary>
+  <summary>1 렉시컬 스코프</summary>
+
+  ### 정답
+  ```
+  정적 스코프라고도 불린다
+  선언된 위치에서 스코프 체인이 정해지는 것을 의미
+  ```
+  
+</details>
+
+<details>
+  <summary>2 this</summary>
+
+  ### 정답
+  ```js
+  const obj = {
+    foo: () => {
+      console.log(this);
+    },
+    zoo: function() {
+      console.log(this);
+    },
+    bar() {
+      console.log(this);
+    },
+    cat() {
+      const arr = [1, 2, 3];
+      arr.map(item => {
+        console.log(this);
+      })
+    }
+  }
+  ```
+</details>
+
+<details>
+  <summary>3 TDZ</summary>
+
+  ### 정답
+  ```
+  식별자를 통해 값에 접근할 수 없는 영역
+  let 변수나 const 상수는 호이스팅때 값이 할당되어 있지 않으므로
+  선언문 위에서 변수에 접근하면 reference error가 발생
+  ```
+</details>
+
+<details>
+  <summary>4 함수 선언문 내부의 this값</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>5 var 변수의 스코프</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+# 클래스
+
+<details>
+  <summary>1 static 메서드</summary>
+
+  ### 코드
+  ```js
+  class Person {
+    constructor(name) {
+      this.name = name;
+    }
+  }
+  ```
+  ### 정답
+  ```js
+  class Person {
+    constructor(name) {
+      this.name = name;
+    }
+
+    static run() {
+      console.log('run!');
+    }
+  }
+  ```
+</details>
+
+# 함수
+
+<details>
+  <summary>1 함수 선언식과 함수 표현식의 차이</summary>
 
   ### 정답
   ```js
@@ -16,7 +118,148 @@
 </details>
 
 <details>
-  <summary>2 아래 코드의 실행을 실행컨텍스트를 통해 설명</summary>
+  <summary>2 클로저</summary>
+
+  ### 정답
+  ```
+  실행 컨텍스트의 렉시컬 환경 객체를 참조하는 격리된 환경
+  함수 실행이 종료되어 콜 스택에서 제거되어도 렉시컬 환경이 다른 함수 내의 변수에 의해 참조되어 메모리에 존재
+  다른 변수가 렉시컬 환경을 참조하는 것 불가능하여 외부에서 접근이 불가능
+  함수 종료 뒤에도 렉시컬 환경이 메모리에 남아있는 이유는 참조되고 있으므로 가비지 컬렉터가 삭제하지 않기 때문
+  ```
+</details>
+
+<details>
+  <summary>3 고차 함수</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>28 return 문이 없는 async 함수 호출 결과</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+# 프로토타입
+
+<details>
+  <summary>1 프로토타입 체인의 작동 방식을 이용하여 메서드 생성</summary>
+
+  ### 코드
+  ```js
+  class Person {
+    constructor(name) {
+      this.name = name;
+    }
+  }
+  ```
+  ### 정답
+  ```js
+  Person.prototype.run = () => {
+    console.log(this.name, 'is running!')
+  }
+  const p = new Person('kim');
+  person.run();
+  ```
+</details>
+
+# 비동기 처리
+
+<details>
+  <summary>1 await의 작동 방식</summary>
+
+  ### 코드
+  ```js
+  async function getUser() {
+    console.log('this is getUSer');
+    
+    const res = await fetch('http://localhost:3000');
+    const user = await res.json();
+    console.log(user);
+  }
+  ```
+  ### 정답
+  ```js
+  await 전에는 동기적으로 처리
+  await 부터는 비동기로 처리되어 마이크로 태스트 큐에서 대기
+  ```
+</details>
+
+<details>
+  <summary>2 Promise</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  비동기 코드를 작성할 때 콜백 지옥을 피하기 위해서 사용하는 객체
+  then, catch 메서드를 사용하여 비동기 코드를 절차적으로 변경하여 콜백 지옥 문제 해결
+  비동기 작업이 성공적으로 끝나면 fulfilled 상태: resolve 함수 호출로 발생
+  문제가 생기면 rejected 상태: resolve 함수 호출로 발생
+  ```
+</details>
+
+<details>
+  <summary>3 이벤트 루프 작동원리</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>4 Promise 결과 2가지</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>6 Promise.all</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>7 Promise.race</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+
+# 실행 컨텍스트
+
+<details>
+  <summary>1 아래 코드의 실행을 실행컨텍스트를 통해 설명</summary>
 
   ### 정답
   ```js
@@ -45,30 +288,7 @@
 </details>
 
 <details>
-  <summary>3 렉시컬 스코프</summary>
-
-  ### 정답
-  ```
-  정적 스코프라고도 불린다
-  선언된 위치에서 스코프 체인이 정해지는 것을 의미
-  ```
-  
-</details>
-
-<details>
-  <summary>4 클로저</summary>
-
-  ### 정답
-  ```
-  실행 컨텍스트의 렉시컬 환경 객체를 참조하는 격리된 환경
-  함수 실행이 종료되어 콜 스택에서 제거되어도 렉시컬 환경이 다른 함수 내의 변수에 의해 참조되어 메모리에 존재
-  다른 변수가 렉시컬 환경을 참조하는 것 불가능하여 외부에서 접근이 불가능
-  함수 종료 뒤에도 렉시컬 환경이 메모리에 남아있는 이유는 참조되고 있으므로 가비지 컬렉터가 삭제하지 않기 때문
-  ```
-</details>
-
-<details>
-  <summary>5 호이스팅</summary>
+  <summary>2 호이스팅</summary>
 
   ### 정답
   ```
@@ -80,125 +300,10 @@
   ```
 </details>
 
-<details>
-  <summary>6 TDZ</summary>
-
-  ### 정답
-  ```
-  식별자를 통해 값에 접근할 수 없는 영역
-  let 변수나 const 상수는 호이스팅때 값이 할당되어 있지 않으므로
-  선언문 위에서 변수에 접근하면 reference error가 발생
-  ```
-</details>
+# 기타
 
 <details>
-  <summary>7 this</summary>
-
-  ### 정답
-  ```js
-  const obj = {
-    foo: () => {
-      console.log(this);
-    },
-    zoo: function() {
-      console.log(this);
-    },
-    bar() {
-      console.log(this);
-    },
-    cat() {
-      const arr = [1, 2, 3];
-      arr.map(item => {
-        console.log(this);
-      })
-    }
-  }
-  ```
-</details>
-
-<details>
-  <summary>8 프로토타입 체인의 작동 방식을 이용하여 메서드 생성</summary>
-
-  ### 코드
-  ```js
-  class Person {
-    constructor(name) {
-      this.name = name;
-    }
-  }
-  ```
-  ### 정답
-  ```js
-  Person.prototype.run = () => {
-    console.log(this.name, 'is running!')
-  }
-  const p = new Person('kim');
-  person.run();
-  ```
-</details>
-
-<details>
-  <summary>9 static 메서드</summary>
-
-  ### 코드
-  ```js
-  class Person {
-    constructor(name) {
-      this.name = name;
-    }
-  }
-  ```
-  ### 정답
-  ```js
-  class Person {
-    constructor(name) {
-      this.name = name;
-    }
-
-    static run() {
-      console.log('run!');
-    }
-  }
-  ```
-</details>
-
-<details>
-  <summary>10 await의 작동 방식</summary>
-
-  ### 코드
-  ```js
-  async function getUser() {
-    console.log('this is getUSer');
-    
-    const res = await fetch('http://localhost:3000');
-    const user = await res.json();
-    console.log(user);
-  }
-  ```
-  ### 정답
-  ```js
-  await 전에는 동기적으로 처리
-  await 부터는 비동기로 처리되어 마이크로 태스트 큐에서 대기
-  ```
-</details>
-
-<details>
-  <summary>11 Promise</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  비동기 코드를 작성할 때 콜백 지옥을 피하기 위해서 사용하는 객체
-  then, catch 메서드를 사용하여 비동기 코드를 절차적으로 변경하여 콜백 지옥 문제 해결
-  비동기 작업이 성공적으로 끝나면 fulfilled 상태: resolve 함수 호출로 발생
-  문제가 생기면 rejected 상태: resolve 함수 호출로 발생
-  ```
-</details>
-
-<details>
-  <summary>12 이벤트 버블링과 캡처링</summary>
+  <summary>1 이벤트 버블링과 캡처링</summary>
 
   ### 코드
   ```js
@@ -233,40 +338,6 @@
 </details>
 
 <details>
-  <summary>14 TDZ</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
-  <summary>14 TDZ</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  
-  ```
-</details>
-
-<details>
-  <summary>15 static 메서드</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
   <summary>16 전개연산자를 사용하면 어떤 복사가 발생하나</summary>
 
   ### 코드
@@ -278,29 +349,7 @@
 </details>
 
 <details>
-  <summary>17 함수 선언문 내부의 this값</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
   <summary>18 가비지 컬렉터</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
-  <summary>19 await 작동원리</summary>
 
   ### 코드
   ```js
@@ -387,28 +436,6 @@
   ```
 </details>
 
-<details>
-  <summary>27 고차 함수</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
-  <summary>28 return 문이 없는 async 함수 호출 결과</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
 
 <details>
   <summary>29 전개연산자</summary>
@@ -423,28 +450,6 @@
 
 <details>
   <summary>30 유사 객체 배열</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
-  <summary>31 var 변수의 스코프</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
-  <summary>32 이벤트 루프 작동원리</summary>
 
   ### 코드
   ```js
@@ -555,39 +560,6 @@
 
 <details>
   <summary>42 find</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
-  <summary>43 Promise 결과 2가지</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
-  <summary>44 Promise.all</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
-  <summary>45 Promise.race</summary>
 
   ### 코드
   ```js
