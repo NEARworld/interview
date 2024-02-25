@@ -48,7 +48,7 @@
 # 유틸리티 타입
 
 <details>
-  <summary>1 </summary>
+  <summary>1 Readonly</summary>
 
   ### 코드
   ```js
@@ -57,6 +57,107 @@
   ```js
   ```
 </details>
+
+<details>
+  <summary>2 Partial</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>3 Record</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>4 Omit</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>5 Extract</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>6 Exclude</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>7 Infer</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
 
 # tsconfig
 ## compilerOptions
