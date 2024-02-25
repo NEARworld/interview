@@ -125,7 +125,7 @@
 </details>
 
 <details>
-  <summary></summary>
+  <summary>8 Required</summary>
 
   ### 코드
   ```js
@@ -136,7 +136,18 @@
 </details>
 
 <details>
-  <summary></summary>
+  <summary>9 Pick</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>10 NonNullable</summary>
 
   ### 코드
   ```js
@@ -148,7 +159,7 @@
 
 
 <details>
-  <summary></summary>
+  <summary>11 Parameters</summary>
 
   ### 코드
   ```js
@@ -158,6 +169,94 @@
   ```
 </details>
 
+<details>
+  <summary>12 ConstructorParameters</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>13 ReturnType</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>14 InstanceType</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>15 ThisParameterType</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>16 OmitThisParameter</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>17 ThisType</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>18 Uppercase, Lowercase</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+
+<details>
+  <summary>19 Capitalize, Uncapitalize</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
 
 # tsconfig
 ## compilerOptions
@@ -408,7 +507,7 @@
 </details>
 
 <details>
-  <summary></summary>
+  <summary>6 Tuple</summary>
 
   ### 코드
   ```js
