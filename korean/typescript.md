@@ -83,7 +83,7 @@
 </details>
 
 <details>
-  <summary>3 moduleInterops</summary>
+  <summary>3 esModuleInterops</summary>
 
   ### 코드
   ```js
