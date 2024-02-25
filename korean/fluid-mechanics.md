@@ -1,3 +1,4 @@
+# Chapter 1
 <details>
   <summary>1 normal force</summary>
 
@@ -154,6 +155,8 @@
   shear stress가 발생하는 동안 지속적으로 형태가 변하는 물질(유체)가 물리 법칙에 의해 어떻게 움직이는지 연구하는 학문
   ```
 </details>
+
+# Chapter 2
 
 <details>
   <summary>12 friction이 무엇인가요</summary>
