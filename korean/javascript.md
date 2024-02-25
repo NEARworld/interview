@@ -1,5 +1,3 @@
-# 프로그래밍 언어
-
 # 스코프
 
 <details>
@@ -300,6 +298,97 @@
   ```
 </details>
 
+# 배열
+
+<details>
+  <summary>1 unshift</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>2 shift</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>3 pop</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>4 push</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>5 filter</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>6 some</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>7 every</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>8 find</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+
 # 기타
 
 <details>
@@ -481,93 +570,6 @@
   ```
 </details>
 
-<details>
-  <summary>35 unshift</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
-  <summary>36 shift</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
-  <summary>37 pop</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
-  <summary>38 push</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
-  <summary>39 filter</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
-  <summary>40 some</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
-  <summary>41 every</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
-  <summary>42 find</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
 
 <details>
   <summary>46 iterable</summary>
