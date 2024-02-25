@@ -156,6 +156,42 @@
 </details>
 
 <details>
+  <summary>12 friction이 무엇인가요</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  object와 바닥이 맞닿는 면에 가해지는 저항력입니다.
+  ```
+</details>
+
+<details>
+  <summary>13 viscosity 가 무엇인가요?</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  유체가 움직일때 저항하는 정도를 말합니다.
+  ```
+</details>
+
+<details>
+  <summary>14 inviscid flow 에 대해 설명해주세요.</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  viscosity가 아주 미미하거나 아예 없는 유체의 움직임을 의미합니다.
+  ```
+</details>
+
+<details>
   <summary></summary>
 
   ### 코드
@@ -176,3 +212,15 @@
   ```js
   ```
 </details>
+
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
