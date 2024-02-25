@@ -1,3 +1,20 @@
+# 렌더링
+
+<details>
+  <summary>1 HTML 파싱에 대해 설명해주세요</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+# 태그
+
+## meta
+
 <details>
   <summary>1 meta charset</summary>
 
@@ -12,9 +29,32 @@
   ```
 </details>
 
+<details>
+  <summary>2 meta description</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
 
 <details>
-  <summary>2 script nomodule</summary>
+  <summary>3 meta viewport</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+## script
+
+<details>
+  <summary>1 script nomodule</summary>
 
   ### 코드
   ```js
@@ -26,7 +66,7 @@
 </details>
 
 <details>
-  <summary>3 script async</summary>
+  <summary>2 script async</summary>
 
   ### 코드
   ```js
@@ -42,7 +82,7 @@
 </details>
 
 <details>
-  <summary>4 script defer</summary>
+  <summary>3 script defer</summary>
 
   ### 코드
   ```js
@@ -52,8 +92,10 @@
   ```
 </details>
 
+## link
+
 <details>
-  <summary>5 link preload</summary>
+  <summary>1 link preload</summary>
 
   ### 코드
   ```js
@@ -61,50 +103,6 @@
   ### 정답
   ```js
   <link rel="preload" as="font" href="" />
-  ```
-</details>
-
-<details>
-  <summary>6 meta description</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
-  <summary>7 meta viewport</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
-  <summary>8 html paint</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
-  ```
-</details>
-
-<details>
-  <summary>9 html layout</summary>
-
-  ### 코드
-  ```js
-  ```
-  ### 정답
-  ```js
   ```
 </details>
 
