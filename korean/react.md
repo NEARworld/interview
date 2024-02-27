@@ -143,6 +143,39 @@
   ```
 </details>
 
+<details>
+  <summary>14 Element와 Component의 차이</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>15 Fragment가 무엇인가요</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>16 함수 컴포넌트와 클래스 컴포넌트의 차이점</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
 # Virtual DOM
 
 <details>
