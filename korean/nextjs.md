@@ -363,7 +363,7 @@
   ```
 </details>
 
-# 스트리밍
+# Streaming
 
 <details>
   <summary>26 스트리밍에 대해서 설명해주세요</summary>
