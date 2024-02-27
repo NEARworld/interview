@@ -43,10 +43,19 @@
 </details>
 
 <details>
-  <summary></summary>
+  <summary>3 Closure</summary>
 
   ### 코드
   ```js
+  function foo() {
+    let x = 10;
+    return function () {
+      console.log(x);
+    }
+  }
+
+  const bar = foo();
+  bar();
   ```
   ### 정답
   ```js
@@ -54,7 +63,7 @@
 </details>
 
 <details>
-  <summary></summary>
+  <summary>4 currying</summary>
 
   ### 코드
   ```js
