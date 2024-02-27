@@ -110,6 +110,39 @@
   ```
 </details>
 
+<details>
+  <summary>11 리액트의 사이드 이펙트에 대해 설명해주세요</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>12 불변성에 대해서 설명해주세요</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>13 setState를 통해 상태를 업데이트해야하는 이유</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
 # Virtual DOM
 
 <details>
