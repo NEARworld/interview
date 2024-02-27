@@ -188,7 +188,7 @@
 </details>
 
 <details>
-  <summary>18 </summary>
+  <summary>18 서버 컴포넌트에 대해 설명해주세요</summary>
 
   ### 코드
   ```js
