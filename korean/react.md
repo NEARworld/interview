@@ -187,6 +187,28 @@
   ```
 </details>
 
+<details>
+  <summary>18 </summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
+<details>
+  <summary>17 StrictMode에 대해 설명해주세요</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
+
 # Virtual DOM
 
 <details>
