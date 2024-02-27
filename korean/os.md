@@ -238,7 +238,7 @@
 </details>
 
 <details>
-  <summary>18 </summary>
+  <summary>18 가상 메모리 크기가 4GB, 페이지 크기가 4KB 일때 가상 메모리 주소에서 페이지 번호는 몇비트를 사용하는지 설명해주세요</summary>
 
   ### 코드
   ```js
