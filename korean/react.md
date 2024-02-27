@@ -177,7 +177,7 @@
 </details>
 
 <details>
-  <summary>17 `<StrictMode />`에 대해 설명해주세요</summary>
+  <summary>17 StrictMode에 대해 설명해주세요</summary>
 
   ### 코드
   ```js
