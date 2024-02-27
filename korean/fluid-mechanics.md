@@ -195,6 +195,43 @@
 </details>
 
 <details>
+  <summary>16 Boundary Layer</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  viscous region
+  ```
+</details>
+
+<details>
+  <summary>17 External Flow</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  wall is far away from liquid
+  ```
+</details>
+
+<details>
+  <summary>18 Internal Flow</summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  pipe line.
+  wall is near the liquid
+  ```
+</details>
+
+<details>
   <summary></summary>
 
   ### 코드
@@ -204,7 +241,6 @@
   ```js
   ```
 </details>
-
 <details>
   <summary></summary>
 
@@ -227,3 +263,13 @@
   ```
 </details>
 
+<details>
+  <summary></summary>
+
+  ### 코드
+  ```js
+  ```
+  ### 정답
+  ```js
+  ```
+</details>
