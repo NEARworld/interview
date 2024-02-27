@@ -4,9 +4,6 @@
 
   ### 코드
   ```js
-  ```
-  ### 정답
-  ```js
   'use strict';
 
   function foo() {
@@ -19,15 +16,15 @@
     console.log(this);
   }
   ```
+  ### 정답
+  ```js
+  ```
 </details>
 
 <details>
   <summary>2 lexical scope </summary>
 
   ### 코드
-  ```js
-  ```
-  ### 정답
   ```js
   function init() {
     let x = 10;
@@ -39,6 +36,9 @@
 
     x = 20;
   }
+  ```
+  ### 정답
+  ```js
   ```
 </details>
 
